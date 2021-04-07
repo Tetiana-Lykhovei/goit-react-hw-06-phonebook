@@ -1,0 +1,44 @@
+.App {
+  width: 700px;
+  height: 100%;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  background-color: rgba(0, 217, 255, 0.336);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  border-radius: 3px;
+}
+
+.App h1,
+h2 {
+  color: rgb(39, 27, 4);
+}
+
+.App input {
+  /* cursor: pointer; */
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.App button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+  font-weight: 600;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: rgb(10, 55, 97);
+}
+
+.App button:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+}
+
+.title {
+  text-transform: uppercase;
+}
